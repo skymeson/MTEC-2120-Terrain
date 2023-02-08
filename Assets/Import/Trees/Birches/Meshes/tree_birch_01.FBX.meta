@@ -1,0 +1,175 @@
+fileFormatVersion: 2
+guid: d4e23b66efbf602439aaac4291dcf37f
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 01_big_tree_birch_leaves_01_LOD0
+    100002: 01_big_tree_birch_leaves_01_LOD1
+    100004: 01_big_tree_birch_leaves_01_LOD2
+    100006: 01_big_tree_birch_leaves_01_LOD3
+    100008: tree_birch_01_LOD0
+    100010: tree_birch_01_LOD1
+    100012: tree_birch_01_LOD2
+    100014: tree_birch_01_LOD3
+    100016: tree_birch_01_roots_LOD0
+    100018: tree_birch_01_roots_LOD1
+    100020: tree_birch_01_roots_LOD2
+    100022: tree_birch_01_roots_LOD3
+    100024: //RootNode
+    400000: 01_big_tree_birch_leaves_01_LOD0
+    400002: 01_big_tree_birch_leaves_01_LOD1
+    400004: 01_big_tree_birch_leaves_01_LOD2
+    400006: 01_big_tree_birch_leaves_01_LOD3
+    400008: tree_birch_01_LOD0
+    400010: tree_birch_01_LOD1
+    400012: tree_birch_01_LOD2
+    400014: tree_birch_01_LOD3
+    400016: tree_birch_01_roots_LOD0
+    400018: tree_birch_01_roots_LOD1
+    400020: tree_birch_01_roots_LOD2
+    400022: tree_birch_01_roots_LOD3
+    400024: //RootNode
+    2100000: M_Birtch_trunk
+    2100002: M_birtch_leaves
+    2100004: M_Birch_leaves
+    2100006: M_white_birth_trunk
+    2100008: M_Birch_trunk
+    2300000: 01_big_tree_birch_leaves_01_LOD0
+    2300002: 01_big_tree_birch_leaves_01_LOD1
+    2300004: 01_big_tree_birch_leaves_01_LOD2
+    2300006: 01_big_tree_birch_leaves_01_LOD3
+    2300008: tree_birch_01_LOD0
+    2300010: tree_birch_01_LOD1
+    2300012: tree_birch_01_LOD2
+    2300014: tree_birch_01_LOD3
+    2300016: tree_birch_01_roots_LOD0
+    2300018: tree_birch_01_roots_LOD1
+    2300020: tree_birch_01_roots_LOD2
+    2300022: tree_birch_01_roots_LOD3
+    3300000: 01_big_tree_birch_leaves_01_LOD0
+    3300002: 01_big_tree_birch_leaves_01_LOD1
+    3300004: 01_big_tree_birch_leaves_01_LOD2
+    3300006: 01_big_tree_birch_leaves_01_LOD3
+    3300008: tree_birch_01_LOD0
+    3300010: tree_birch_01_LOD1
+    3300012: tree_birch_01_LOD2
+    3300014: tree_birch_01_LOD3
+    3300016: tree_birch_01_roots_LOD0
+    3300018: tree_birch_01_roots_LOD1
+    3300020: tree_birch_01_roots_LOD2
+    3300022: tree_birch_01_roots_LOD3
+    4300000: tree_birch_01_LOD1
+    4300002: tree_birch_01_LOD2
+    4300004: tree_birch_01_LOD3
+    4300006: tree_birch_01_LOD0
+    4300008: 01_big_tree_birch_leaves_01_LOD3
+    4300010: 01_big_tree_birch_leaves_01_LOD2
+    4300012: 01_big_tree_birch_leaves_01_LOD1
+    4300014: 01_big_tree_birch_leaves_01_LOD0
+    4300016: tree_birch_01_roots_LOD3
+    4300018: tree_birch_01_roots_LOD2
+    4300020: tree_birch_01_roots_LOD1
+    4300022: tree_birch_01_roots_LOD0
+    7400000: Take 001
+    9500000: //RootNode
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Birch_leaves
+    second: {fileID: 2100000, guid: 7dae7ada9cc3ab7408cab7200902fe94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Birch_trunk
+    second: {fileID: 2100000, guid: 649bab58797730c4c874abd96e41bc7a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
