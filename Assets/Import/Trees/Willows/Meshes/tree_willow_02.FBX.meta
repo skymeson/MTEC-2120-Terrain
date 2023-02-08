@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: a281e898746f34647adffa79e68effe3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Willow_02_leaves
+    100004: Willow_02_roots
+    100006: Willow_02_trunk
+    100008: 02_Willow_02_trunk_LOD0
+    100010: 02_Willow_02_trunk_LOD1
+    100012: 02_Willow_02_trunk_LOD2
+    100014: 02_Willow_02_trunk_LOD3
+    100016: Willow_02_leaves_LOD0
+    100018: Willow_02_leaves_LOD1
+    100020: Willow_02_leaves_LOD2
+    100022: Willow_02_leaves_LOD3
+    400000: //RootNode
+    400002: Willow_02_leaves
+    400004: Willow_02_roots
+    400006: Willow_02_trunk
+    400008: 02_Willow_02_trunk_LOD0
+    400010: 02_Willow_02_trunk_LOD1
+    400012: 02_Willow_02_trunk_LOD2
+    400014: 02_Willow_02_trunk_LOD3
+    400016: Willow_02_leaves_LOD0
+    400018: Willow_02_leaves_LOD1
+    400020: Willow_02_leaves_LOD2
+    400022: Willow_02_leaves_LOD3
+    2300000: Willow_02_leaves
+    2300002: Willow_02_roots
+    2300004: Willow_02_trunk
+    2300006: 02_Willow_02_trunk_LOD0
+    2300008: 02_Willow_02_trunk_LOD1
+    2300010: 02_Willow_02_trunk_LOD2
+    2300012: 02_Willow_02_trunk_LOD3
+    2300014: Willow_02_leaves_LOD0
+    2300016: Willow_02_leaves_LOD1
+    2300018: Willow_02_leaves_LOD2
+    2300020: Willow_02_leaves_LOD3
+    3300000: Willow_02_leaves
+    3300002: Willow_02_roots
+    3300004: Willow_02_trunk
+    3300006: 02_Willow_02_trunk_LOD0
+    3300008: 02_Willow_02_trunk_LOD1
+    3300010: 02_Willow_02_trunk_LOD2
+    3300012: 02_Willow_02_trunk_LOD3
+    3300014: Willow_02_leaves_LOD0
+    3300016: Willow_02_leaves_LOD1
+    3300018: Willow_02_leaves_LOD2
+    3300020: Willow_02_leaves_LOD3
+    4300000: Willow_02_roots
+    4300002: Willow_02_trunk
+    4300004: Willow_02_leaves
+    4300006: 02_Willow_02_trunk_LOD3
+    4300008: 02_Willow_02_trunk_LOD2
+    4300010: 02_Willow_02_trunk_LOD1
+    4300012: 02_Willow_02_trunk_LOD0
+    4300014: Willow_02_leaves_LOD3
+    4300016: Willow_02_leaves_LOD2
+    4300018: Willow_02_leaves_LOD1
+    4300020: Willow_02_leaves_LOD0
+    9500000: //RootNode
+    20500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Willow_leaves
+    second: {fileID: 2100000, guid: 65141e08f87430942a598b2d4a4e3916, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Willow_trunk
+    second: {fileID: 2100000, guid: 0aae5f5e7e99b7142ad878f1ae99cf23, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages:
+    - 0.25
+    - 0.125
+    - 0.0625
+    - 0.01
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
