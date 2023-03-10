@@ -13,14 +13,16 @@ public class CollisionColor : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        Color randomColor = new Color(Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f), Random.Range(0.0f, 1.0f));
+        Color randomColor = new Color(Random.Range(0.0f, 1.0f), 
+                                      Random.Range(0.0f, 1.0f), 
+                                      Random.Range(0.0f, 1.0f));
         Material newMaterial = new Material(thisRenderer.material);
         newMaterial.SetColor("_Color", randomColor);
         thisRenderer.material = newMaterial;
     }
 
-    private void OnTriggerEnter(Collider other)
+   /* private void OnTriggerEnter(Collider other)
     {
         Debug.Log(other.name);
-    }
+    }*/
 }

@@ -10,11 +10,11 @@ public class MyOrbitScript : MonoBehaviour
     public Vector3 rotationAxis;
     public float rotationAngle = 1.0f;
     private float countdown = 1.0f;
-
+   // Transform tran;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //tran.position = new Vector3(0, 1, 0);  
     }
 
     // Update is called once per frame
