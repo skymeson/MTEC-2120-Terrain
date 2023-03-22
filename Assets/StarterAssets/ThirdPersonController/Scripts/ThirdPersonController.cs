@@ -75,6 +75,10 @@ namespace StarterAssets
         [Tooltip("For locking the camera position on all axis")]
         public bool LockCameraPosition = false;
 
+
+        public float burstSpeed;
+        public GameObject projectile;
+
         // cinemachine
         private float _cinemachineTargetYaw;
         private float _cinemachineTargetPitch;
@@ -159,6 +163,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+            ShootCheck(); 
         }
 
         private void LateUpdate()
@@ -279,6 +284,33 @@ namespace StarterAssets
             }
         }
 
+
+        private void ShootCheck()
+        {
+            if(_input.shoot)
+            {
+                // Handle shooting logic
+                Debug.Log("Handle shooting logic");
+                Fire();
+
+            }
+        }
+
+        private void Fire()
+        {
+            var transform = this.transform;
+            var newProjectile = Instantiate(projectile);
+            newProjectile.transform.position = transform.position + transform.forward * 0.6f + transform.up * 1.2f;
+            newProjectile.transform.rotation = transform.rotation;
+            const int size = 1;
+            newProjectile.transform.localScale *= size;
+            newProjectile.GetComponent<Rigidbody>().mass = Mathf.Pow(size, 3);
+            newProjectile.GetComponent<Rigidbody>().AddForce(transform.forward * 20f, ForceMode.Impulse);
+            newProjectile.GetComponent<MeshRenderer>().material.color =
+                new Color(Random.value, Random.value, Random.value, 1.0f);
+        }
+
+
         private void JumpAndGravity()
         {
             if (Grounded)
@@ -320,8 +352,23 @@ namespace StarterAssets
             }
             else
             {
+
+                if (_input.jump && _jumpTimeoutDelta <= 0.0f)
+                {
+                    // the square root of H * -2 * G = how much velocity needed to reach desired height
+                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+
+                    // update animator if using character
+                    if (_hasAnimator)
+                    {
+                        _animator.SetBool(_animIDJump, true);
+                    }
+                }
+
+
+
                 // reset the jump timeout timer
-                _jumpTimeoutDelta = JumpTimeout;
+                //_jumpTimeoutDelta = JumpTimeout;
 
                 // fall timeout
                 if (_fallTimeoutDelta >= 0.0f)

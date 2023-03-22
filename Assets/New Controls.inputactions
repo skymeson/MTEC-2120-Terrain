@@ -1,0 +1,46 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "Keyboard",
+            "id": "40b582eb-20d1-409a-8806-3428b0c3ca55",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "fda277d7-1611-41b8-add8-d97fba46090c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2e193078-ea5c-4a24-a4d4-c47e54f14013",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Test",
+            "bindingGroup": "Test",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": true,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
